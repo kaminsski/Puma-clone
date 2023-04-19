@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav start */
+nav{
+    top: 0px;
+    position: sticky;
+    
+}
+.navtop{
+    background-color:rgb(174, 148, 109);
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    height: 40px;
+}
+.navbottom{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    
+}
+.navbottom .left img{
+    height: 39px;
+    width: 39px;    
+}
+.left{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 25px;
+    column-gap: 50px
+    
+    
+    
+}
+.left ul{
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+}
+.left ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+    
+.navbottom{
+    display: flex;
+}
+.right{
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+    column-gap: 25px;
+}
+#shop{
+    font-size: 25px;
+}
+#profile{
+    font-size: 25px;
+}
+#search{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    height: 30px;
+    border: 1px solid rgb(140, 140, 140);
+}
+/* nav end */
+
+
+/* content start */
+.cont1{
+    background-image: url(./backgrounds/bg1.jpg);
+    background-size: cover;
+    padding-left: 60px;
+    padding-top: 120px;
+    padding-bottom: 250px;
+}
+.cont1 h2{
+    color: white;
+    font-size: 50px;
+}
+.cont1 h3{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 12px;
+}
+.button1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 13px;
+    width: 200px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+/* ------------------------------ */
+.cont2{
+    background-image: url(./backgrounds/BG2.jpg);
+    background-size: cover;
+    padding-left: 30%;
+    padding-top: 120px;
+    padding-bottom: 230px;
+    margin-top: 10px;
+}
+.cont2 h2{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+
+}
+.cont2 h3{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+/* ------------------------------ */
+.cont3{
+    background-image: url(./backgrounds/BG3.jpg);
+    background-size: cover;
+    padding-left: 10%;
+    padding-top: 120px;
+    padding-bottom: 220px;
+    margin-top: 10px;
+}
+.cont3 h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+
+}
+.cont3 h3{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.button2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    width: 200px;
+    margin-top: 250x;
+    font-weight: bold;
+    margin-top: 25px;
+    border-style: none;
+}
+/* ------------------------------ */
+.cont4{
+    background-image: url(./backgrounds/BG4.jpg);
+    background-size: cover;
+    padding-left: 55%;
+    padding-top: 120px;
+    padding-bottom: 215px;
+    margin-top: 10px;
+}
+.cont4 h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+
+}
+.cont4 h3{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+
+/* ------------------------------ */
+.content_conteiner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 70px;
+}
+.cont5 img{
+    height: 490px;
+    width: 490px;
+}
+.cont5{
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+.img_conteiner{
+    background-color: black;
+    
+}
+.content_conteiner h4{
+    font-size: 25px;
+    margin-top: 40px;
+}
+.content_conteiner p{
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+}
+.button3 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 13px;
+    width: 200px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.c3 button{
+    margin-left: 20px;
+}
+.c3 h4{
+    padding-right: 70px;
+}
+.c3 p{
+    padding-right: 100px;
+}
+.c1 button{
+    margin-left: 20px;
+}
+/* ------------------------------ */
+.content_conteiner2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+    column-gap: 20px;
+    
+}
+.cont6 img{
+    height: 210px;
+    width: 210px;
+    margin: 10px;
+}
+.cont6{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.img_conteiner2{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    
+    column-gap: 80px;
+    
+}
+.content_conteiner2 h5{
+    font-size: 13px;
+    margin-top: 35px;
+    color: grey;
+}
+.content_conteiner2 p{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+}
+#c6h2{
+    font-size: 30px;
+    text-align: center
+    
+}
+/* ---------------------- */
+.cont7{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.icon_andtext{
+
+    position: relative;
+    margin-top: 10px;
+}
+.icon_andtext span{
+    position: absolute;
+    left: 660px;
+}
+.cont7 h2{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.cont7 #text{
+    margin-top: 2px;
+}
+#icon_content{
+    font-size: 15px;
+}
+/* ------------------ */
+.img_conteiner3 img{
+    height: 250px;
+    width: 250px;
+    
+}
+.img_conteiner3 {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.cont8{
+    margin: 0px 0px;
+}
+
+/* content end */
+
+
+/* footer start */
+footer{
+    background-color: rgb(24, 24, 24);
+}
+.footer_container{
+    height: 500px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+.ll{
+    display: flex;
+    column-gap: 20px;
+    margin-left: 40px;
+}
+.l2{
+    margin-top: 60px;
+}
+.footer_container{
+    display: flex;
+}
+.left_footer img{
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.ll h6{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ll p{
+    color: grey;
+    
+    font-size: 15px;
+}
+.llp{
+    margin-top: 20px;
+}
+.l4 img{
+    height: 80px;
+    margin: 0;
+}
+.right_footer{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.right_footer h6{
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.right_footer form input{
+    background-color: rgb(24, 24, 24);
+    border: 1px solid grey;
+    margin-bottom: 70px;
+    height: 30px;
+    width: 260px;
+}
+.bottom_footer{
+    height: 100px;
+    background-color: rgb(24, 24, 24);
+    border-top: 1px solid grey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+}
+#lang{
+    color: white;
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    width: 260px;
+    height: 50px;
+}
+/* footer end */
